@@ -78,7 +78,7 @@ class EventDashboard extends Component {
   };
 
   handleUpdateEvent = updatedEvent => {
-    this.state({
+    this.setState({
       events: this.state.events.map(event => {
         if (event.id === updatedEvent.id) {
           return Object.assign({}, updatedEvent);
@@ -91,7 +91,7 @@ class EventDashboard extends Component {
     });
   };
 
-  handleOpenEvent = eventToOpen => () => {
+  handleOpenEvent = eventToOpen => {
     this.setState({
       selectedEvent: eventToOpen,
       isOpen: true
