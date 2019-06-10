@@ -6,8 +6,10 @@
     "cuid": "^2.1.6",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
     "semantic-ui": "^2.4.2",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.85.0"
@@ -17,6 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.2"
   },
   "eslintConfig": {
     "extends": "react-app"
